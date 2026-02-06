@@ -45,37 +45,37 @@
             bindings = <&kp CAPS>;
         };
         combo_shift_q {
-            timeout-ms = <175>;
+            timeout-ms = <200>;
             key-positions = <0 10>;
             bindings = <&kp LS(Q)>;
         };
         combo_shift_w {
-            timeout-ms = <175>;
+            timeout-ms = <200>;
             key-positions = <1 10>;
             bindings = <&kp LS(W)>;
         };
         combo_shift_e {
-            timeout-ms = <175>;
+            timeout-ms = <200>;
             key-positions = <2 10>;
             bindings = <&kp LS(E)>;
         };
         combo_shift_r {
-            timeout-ms = <175>;
+            timeout-ms = <200>;
             key-positions = <3 10>;
             bindings = <&kp LS(R)>;
         };
         combo_shift_t {
-            timeout-ms = <175>;
+            timeout-ms = <200>;
             key-positions = <4 10>;
             bindings = <&kp LS(T)>;
         };
         combo_shift_o {
-            timeout-ms = <175>;
+            timeout-ms = <200>;
             key-positions = <8 19>;
             bindings = <&kp LS(O)>;
         };
         combo_shift_p {
-            timeout-ms = <175>;
+            timeout-ms = <200>;
             key-positions = <9 19>;
             bindings = <&kp LS(P)>;
         };
