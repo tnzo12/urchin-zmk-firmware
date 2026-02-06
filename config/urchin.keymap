@@ -24,9 +24,9 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "tap-preferred";
-            tapping-term-ms = <200>;
-            quick-tap-ms = <150>;
-            require-prior-idle-ms = <100>;
+            tapping-term-ms = <280>;
+            quick-tap-ms = <175>;
+            require-prior-idle-ms = <150>;
             bindings = <&kp>, <&kp>;
         };
     };
@@ -134,7 +134,7 @@ label= "NAV"                              ;
     &kp ESC     &kp N7      &kp N8      &kp N9       &kp MINUS       &kp LBKT  &kp HOME       &kp UP        &kp END        &trans
     &mt LSHFT A &mt LALT N4 &mt LGUI N5 &mt LCTRL N6 &kp EQUAL       &kp RBKT  &mt RCTRL LEFT &mt RGUI DOWN &mt RALT RIGHT &mt RSHFT SQT
     &kp BSLH    &kp N1      &kp N2      &kp N3       &kp GRAVE       &trans    &trans         &trans        &trans         &trans
-                                        &kp N0       &trans          &trans    &trans         
+                                        &kp N0       &trans          &trans    &kp DEL         
                         >;
                 };
 
