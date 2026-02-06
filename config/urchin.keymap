@@ -24,11 +24,11 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "balanced";
-            tapping-term-ms = <150>;
-            quick-tap-ms = <150>;
-            require-prior-idle-ms = <100>;
+            quick-tap-ms = <175>;
+            tapping-term-ms = <200>;
             bindings = <&kp>, <&kp>;
             hold-trigger-on-release;
+            require-prior-idle-ms = <150>;
         };
     };
 
@@ -45,37 +45,37 @@
             bindings = <&kp CAPS>;
         };
         combo_shift_q {
-            timeout-ms = <35>;
+            timeout-ms = <120>;
             key-positions = <0 10>;
             bindings = <&kp LS(Q)>;
         };
         combo_shift_w {
-            timeout-ms = <35>;
+            timeout-ms = <120>;
             key-positions = <1 10>;
             bindings = <&kp LS(W)>;
         };
         combo_shift_e {
-            timeout-ms = <35>;
+            timeout-ms = <120>;
             key-positions = <2 10>;
             bindings = <&kp LS(E)>;
         };
         combo_shift_r {
-            timeout-ms = <35>;
+            timeout-ms = <120>;
             key-positions = <3 10>;
             bindings = <&kp LS(R)>;
         };
         combo_shift_t {
-            timeout-ms = <35>;
+            timeout-ms = <120>;
             key-positions = <4 10>;
             bindings = <&kp LS(T)>;
         };
         combo_shift_o {
-            timeout-ms = <35>;
+            timeout-ms = <120>;
             key-positions = <8 19>;
             bindings = <&kp LS(O)>;
         };
         combo_shift_p {
-            timeout-ms = <35>;
+            timeout-ms = <120>;
             key-positions = <9 19>;
             bindings = <&kp LS(P)>;
         };
