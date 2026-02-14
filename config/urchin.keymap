@@ -44,41 +44,6 @@
             key-positions = <12 13>;
             bindings = <&kp CAPS>;
         };
-        combo_shift_q {
-            timeout-ms = <200>;
-            key-positions = <0 10>;
-            bindings = <&kp LS(Q)>;
-        };
-        combo_shift_w {
-            timeout-ms = <200>;
-            key-positions = <1 10>;
-            bindings = <&kp LS(W)>;
-        };
-        combo_shift_e {
-            timeout-ms = <200>;
-            key-positions = <2 10>;
-            bindings = <&kp LS(E)>;
-        };
-        combo_shift_r {
-            timeout-ms = <200>;
-            key-positions = <3 10>;
-            bindings = <&kp LS(R)>;
-        };
-        combo_shift_t {
-            timeout-ms = <200>;
-            key-positions = <4 10>;
-            bindings = <&kp LS(T)>;
-        };
-        combo_shift_o {
-            timeout-ms = <200>;
-            key-positions = <8 19>;
-            bindings = <&kp LS(O)>;
-        };
-        combo_shift_p {
-            timeout-ms = <200>;
-            key-positions = <9 19>;
-            bindings = <&kp LS(P)>;
-        };
     };
 
     conditional_layers {
@@ -117,7 +82,7 @@ label= "BASE"                              ;
     &kp Q       &kp W       &kp E       &kp R       &kp T           &kp Y       &kp U       &kp I       &kp O       &kp P
     HRML(A,     S,          D,          F)          &kp G           &kp H       HRMR(J,     K,          L,          SEMI)
     &kp Z       &kp X       &kp C       &kp V       &kp B           &kp N       &kp M       &kp COMMA   &kp DOT     &kp FSLH
-                                        &kp TAB     &lt 1 SPACE     &lt 1 ENTER &lt 2 BSPC
+                                        &kp langhold     &lt 1 SPACE     &lt 1 ENTER &lt 2 BSPC
                         >;
                 };
 
