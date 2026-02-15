@@ -21,7 +21,7 @@ manifest:
       remote: duckyb
       revision: main
     - name: nice-view-gem
-      remote: v0.3.0
-      revision: main
+      remote: m165437
+      revision: v0.3.0
   self:
     path: config
