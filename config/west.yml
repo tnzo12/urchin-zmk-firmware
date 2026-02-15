@@ -20,7 +20,7 @@ manifest:
     - name: urchin-zmk-module
       remote: duckyb
       revision: main
-    - name: nice-view-gem
+    - name: nice-view-mod
       remote: m165437
       revision: main
   self:
