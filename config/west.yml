@@ -10,8 +10,8 @@ manifest:
     - name: duckyb
       url-base: https://github.com/duckyb
       # nice-view-gem
-    - name: tnzo12
-      url-base: https://github.com/tnzo12/
+    - name: m165437
+      url-base: https://github.com/M165437
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -21,7 +21,7 @@ manifest:
       remote: duckyb
       revision: main
     - name: nice-view-gem
-      remote: tnzo12
+      remote: M165437
       revision: v0.3.0
   self:
     path: config
